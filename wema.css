@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Inter Tight", sans-serif;
+}
+
+:root{
+    --my-color: #981d87;
+    --my-text-color: #585b5c;
+}
+
+.first-nav{
+    height: 70px;
+    width: 95%;
+}
+
+.first-nav button{
+    background-color: var(--my-color) !important;
+    height: 30px;
+}
+
+.first-nav a, .second-nav .nav-link{
+    color: var(--my-text-color) !important;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.first-nav a:hover, .second-nav .nav-link:hover{
+    border-bottom: 2px solid var(--my-color) !important;
+    color: var(--my-color) !important;
+}
+
+header div{
+    box-shadow: .1px .01px .5px .1px;
+    background-color: #fafafa;
+}
+
+.second-nav{
+    height: 50px;
+}
+
+.nav-search{
+    background-color: var(--my-color);
+}
+
+.dropdowns{
+    /* clip-path: polygon(0% 14%, 4% 14%, 9% 9%, 15% 14%, 100% 14%, 100% 100%, 0% 100%); */
+    /* display: none;
+    flex-direction: column;*/
+    gap: 25px;
+    background-color: white;
+    box-shadow: .1px .1px 1px .1px;
+    margin: 4px auto;
+    padding: 20px !important;
+    top: 25px;
+}
+
+.dropdowns a{
+    color: var(--my-text-color) !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.careers:hover .dropdowns-1{
+    display: flex !important;
+}
+
+.investor:hover .dropdowns-2{
+    display: flex !important;
+}
+
+.sustainability:hover .dropdowns-3{
+    display: flex !important;
+}
+
+.resource:hover .dropdowns-4{
+    display: flex !important;
+}

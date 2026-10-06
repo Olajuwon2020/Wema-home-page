@@ -78,9 +78,9 @@ header div{
     display: flex !important;
 }
 
-/* .splide__slide{
-    height: 80dvh !important;
-} */
+.splide__slide{
+    height: 81dvh !important;
+}
 
 
 .splide1{
@@ -88,7 +88,7 @@ header div{
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    height: 81dvh !important;
+    /* height: 81dvh !important; */
 }
 
 .splide2{
@@ -96,7 +96,7 @@ header div{
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    height: 81dvh !important;
+    /* height: 81dvh !important; */
 }
 
 .splide3{
@@ -105,7 +105,7 @@ header div{
     background-repeat: no-repeat;
     background-position: 80% 0;
     object-fit: cover;
-    height: 70dvh !important;
+    /* height: 70dvh !important; */
 }
 
 .splide4{
@@ -113,23 +113,23 @@ header div{
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    height: 82dvh !important;
+    /* height: 82dvh !important; */
 }
 .splide5{
     background-image: url(https://wemabank.com/assets/bg-wk-lUXns.png);
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    height: 70dvh !important;
+    /* height: 70dvh !important; */
 }
 
 .splide6{
-    height: 70dvh;
+    /* height: 70dvh; */
 }
 
 .splide7{
     background-image: linear-gradient(to bottom right, #b13aac, #010001), linear-gradient(to bottom, rgb(171, 165, 165));
-    height: 82dvh !important;
+    /* height: 82dvh !important; */
 }
 
 .splide7 h1{
@@ -162,7 +162,7 @@ header div{
 }
 
 .splide8{
-    height: 81dvh;
+    /* height: 81dvh; */
 }
 
 .splide8 h1{
@@ -198,7 +198,7 @@ header div{
 .splide9{
     height: 81dvh;
     background-image: linear-gradient(to right, #af3492, #d93358);
-    height: 82dvh;
+    /* height: 82dvh; */
 }
 
 .splide9 h1{
@@ -233,7 +233,7 @@ header div{
 .splide10{
     height: 81dvh;
     background-image: linear-gradient(to right, #33cbb0, #2778a2);
-    height: 82dvh;
+    /* height: 82dvh; */
 }
 
 .splide10 h1{
@@ -268,7 +268,7 @@ header div{
 .splide11{
     height: 81dvh;
     background-image: linear-gradient(to right, #82348e, #4a1b4b);
-    height: 82dvh;
+    /* height: 82dvh; */
 }
 
 .splide11 h1{
@@ -306,7 +306,7 @@ header div{
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    height: 70dvh;
+    /* height: 70dvh; */
 }
 
 .splide12 h1{
@@ -338,4 +338,43 @@ header div{
 .splide12 button:hover .bi-arrow-right-short{
     transform: translateX(10px);
 }
+
+.scroll{
+    height: 40px;
+    /* border: 1px solid; */
+    /* margin-bottom: 50px; */
+}
+
+.scroll div:nth-child(1){
+    background-color: #ec49de;
+    height: 40px !important;
+    width: 5%;
+}
+
+.scroll div:nth-child(2){
+    background-color: var(--my-color);
+    height: 40px !important;
+    overflow: hidden;
+    width: 100%;  
+}
+
+.scroll div:nth-child(2) p{
+    display: inline-block;
+    animation: scroller 25s linear infinite;
+}
+
+@keyframes scroller {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
 

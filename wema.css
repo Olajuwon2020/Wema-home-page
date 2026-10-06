@@ -11,7 +11,7 @@
 
 .first-nav{
     height: 70px;
-    width: 95%;
+    width: 80%;
 }
 
 .first-nav button{
@@ -53,6 +53,7 @@ header div{
     margin: 4px auto;
     padding: 20px !important;
     top: 25px;
+    z-index: 1;
 }
 
 .dropdowns a{
@@ -76,3 +77,265 @@ header div{
 .resource:hover .dropdowns-4{
     display: flex !important;
 }
+
+/* .splide__slide{
+    height: 80dvh !important;
+} */
+
+
+.splide1{
+    background-image: url(https://wemabank.com/assets/web-bg-NeQw25Yh.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 81dvh !important;
+}
+
+.splide2{
+    background-image: url(https://wemabank.com/assets/jingle-bg-Db3fxZJc.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 81dvh !important;
+}
+
+.splide3{
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+    object-fit: cover;
+    height: 70dvh !important;
+}
+
+.splide4{
+    background-image: url(https://wemabank.com/assets/hero-background-NkSVHum_.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 82dvh !important;
+}
+.splide5{
+    background-image: url(https://wemabank.com/assets/bg-wk-lUXns.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 70dvh !important;
+}
+
+.splide6{
+    height: 70dvh;
+}
+
+.splide7{
+    background-image: linear-gradient(to bottom right, #b13aac, #010001), linear-gradient(to bottom, rgb(171, 165, 165));
+    height: 82dvh !important;
+}
+
+.splide7 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide7 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide7 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide7 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide8{
+    height: 81dvh;
+}
+
+.splide8 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide8 button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide8 button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide8 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide9{
+    height: 81dvh;
+    background-image: linear-gradient(to right, #af3492, #d93358);
+    height: 82dvh;
+}
+
+.splide9 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide9 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide9 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide9 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide10{
+    height: 81dvh;
+    background-image: linear-gradient(to right, #33cbb0, #2778a2);
+    height: 82dvh;
+}
+
+.splide10 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide10 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide10 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide10 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide11{
+    height: 81dvh;
+    background-image: linear-gradient(to right, #82348e, #4a1b4b);
+    height: 82dvh;
+}
+
+.splide11 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide11 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide11 button:hover{
+    outline: 1px solid white !important;
+    background-color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide11 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.splide12{
+    height: 81dvh;
+    background-image: linear-gradient(#d4d4d4);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 70dvh;
+}
+
+.splide12 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.splide12 button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.splide12 button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.splide12 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+

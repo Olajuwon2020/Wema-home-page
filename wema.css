@@ -416,6 +416,7 @@ header div{
 
 .six-cards{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
 }
 
 .six-cards .card{
@@ -424,6 +425,7 @@ header div{
     background-color: #fff4ff;
     border: none;
     transition: all .2s linear;
+    border-radius: 0 !important;
 }
 
 .six-cards .card:hover{
@@ -493,6 +495,7 @@ header div{
     min-height: 200px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    border-radius: 0;
  }
 
  .three-cards1 .card{
@@ -501,6 +504,7 @@ header div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 0;
  }
 
  .three-cards1 .card-body:hover h5{
@@ -607,7 +611,7 @@ header div{
 }
 
 .purple-background1{
-    height: 100dvh;
+    min-height: 100dvh;
     background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -624,7 +628,7 @@ header div{
 }
 
 .investor-relations{
-    min-height: 70dvh;
+    min-height: 60dvh;
     grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     padding-top: 60px;
 }
@@ -632,4 +636,85 @@ header div{
 .investor-relations .loading{
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     padding-top: 20px;
+}
+
+.three-cards2{
+    min-height: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+ }
+
+ .three-cards2 .card{
+    padding: 15px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0;
+ }
+
+ .three-cards2 .card-body:hover h5{
+    color: var(--my-color);
+ }
+
+ .three-cards2 .card p{
+    color: grey;
+ }
+
+ .three-cards2 .card{
+    /* width: 32% !important; */
+    /* transition: all .2s linear; */
+}
+
+.three-cards2 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.business{
+    margin-top: 40px;
+}
+
+.business div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    margin-top: 60px !important;
+}
+
+.business-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.business-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.business button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.business button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.business button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.business button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
 }

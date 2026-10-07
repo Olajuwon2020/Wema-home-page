@@ -606,3 +606,30 @@ header div{
     transform: translateX(10px);
 }
 
+.purple-background1{
+    height: 100dvh;
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.purple-background1 .small-grey{
+    font-size: 15px;
+    color: #d1d5db;
+}
+
+.purple-background1 .purple{
+    color: #ec49de;
+    font-weight: 600;
+}
+
+.investor-relations{
+    min-height: 70dvh;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    padding-top: 60px;
+}
+
+.investor-relations .loading{
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    padding-top: 20px;
+}

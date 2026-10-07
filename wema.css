@@ -445,11 +445,11 @@ header div{
 }
 
 .SME-patner{
-    min-height: 400px;
+
 }
 
 .SME-partner div:nth-child(1){
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     margin-top: 60px !important;
 }
 
@@ -485,4 +485,34 @@ header div{
     transform: translateX(10px);
 }
 
- 
+ .three-cards1{
+    min-height: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+ }
+
+ .three-cards1 .card{
+    padding-top: 40px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .three-cards1 .card-body:hover h5{
+    color: var(--my-color);
+ }
+
+ .three-cards1 .card p{
+    color: grey;
+ }
+
+ .three-cards1 .card{
+    /* width: 32% !important; */
+    transition: all .2s linear;
+}
+
+.three-cards1 .card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}

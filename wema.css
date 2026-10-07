@@ -458,6 +458,10 @@ header div{
     color: var(--my-color);
 }
 
+.SME-partner-grey{
+    color: grey;
+}
+
 .SME-partner button{
     background-color: var(--my-color);
     color: white;
@@ -516,3 +520,89 @@ header div{
     transform: translateY(-12px);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
+
+.animation-atm div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    margin-top: 60px !important;
+}
+
+.animation-atm-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.animation-atm-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.animation-atm button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+
+.animation-atm button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.animation-atm button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.animation-atm button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.ALATPay div:nth-child(1){
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    margin-top: 60px !important;
+}
+
+.ALATPay-purple{
+    font-weight: 700;
+    color: var(--my-color);
+}
+
+.ALATPay-grey{
+    color: grey;
+    text-align: justify;
+}
+
+.ALATPay button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  
+}
+
+.ALATPay button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.ALATPay button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.ALATPay button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+

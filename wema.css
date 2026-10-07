@@ -379,7 +379,7 @@ header div{
 }
 
 .box{
-    height: 14dvh;
+    height: 16dvh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)) !important;
     gap: 20px;
@@ -393,13 +393,56 @@ header div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .boxx:hover{
     transform: translateY(-10px);
 }
 
+
+
+.elevate p:nth-child(1){
+    font-weight: 600;
+    color: var(--my-color);
+}
+
+
+
+.elevate p:nth-child(3){
+    color: grey;
+}
+
+.six-cards{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.six-cards .card{
+    /* width: 32% !important; */
+    flex-shrink: 0;
+    background-color: #fff4ff;
+    border: none;
+    transition: all .2s linear;
+}
+
+.six-cards .card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    background-color: #fee9fe;
+}
+
+.six-cards .card:hover .six-cards>.card-body>a {
+    color: #fa92fa !important;
+}
+
+.six-cards .card h5{
+    font-weight: 600;
+}
+
+.six-cards .card p{
+    color: grey;
+}
 
 
 

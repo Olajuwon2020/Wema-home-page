@@ -373,7 +373,32 @@ header div{
     }
 }
 
+.boxes{
+    height: 30dvh;
+    background-color: #f6f6f6;
+}
 
+.box{
+    height: 14dvh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)) !important;
+    gap: 20px;
+}
+
+.boxx{
+    background-color: #ffffff;
+    color: grey;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.boxx:hover{
+    transform: translateY(-10px);
+}
 
 
 

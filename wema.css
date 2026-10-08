@@ -673,13 +673,17 @@ header div{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
 
+.offwhite{
+    background-color: #fbfbfb;
+}
+
 .business{
     /* margin-top: 20px; */
 }
 
 .business div:nth-child(1){
     grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-    margin-top: 60px !important;
+    margin-top: 30px !important;
 }
 
 .business-purple{
@@ -752,4 +756,76 @@ header div{
 .three-cards3 .card:hover{
     transform: translateY(-12px);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.testimonies{
+    margin-bottom: 40px;
+}
+
+.testimonies .head p{
+    color: var(--my-color);
+}
+
+.testimony-card{
+   cursor: grabbing;
+}
+
+.testimony-card .splide__slide{
+    flex-shrink: 0;
+    /* width: 32%; */
+    border-radius: 0;
+    /* border: 1px solid; */
+    height: 250px !important;
+    padding: 20px;
+    
+}
+
+
+
+.testimony-card .splide__slide .card-body{
+    padding: 20px;
+    height: 200px !important;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+.testimony-card .splide__slide .card-text{
+    color: grey;
+    height: 120px !important;
+}
+
+.stu{
+    height: 120px !important;
+}
+
+.mobile{
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    min-height: 53dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobilee{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: end;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.extreme{
+    padding-left: 150px !important;
+}
+
+.star{
+    top: 6rem;
+    left: 27rem;
+}
+
+.curve{
+    left: 10rem;
+    bottom: 0;
+}
+
+.plane{
+    right: 10rem;
+    top: 10rem;
 }

@@ -850,6 +850,7 @@ header div{
 
 .Article-purple{
     font-weight: 700;
+    width: fit-content;
     color: var(--my-color);
 }
 
@@ -903,3 +904,64 @@ header div{
     color: var(--my-color);
     background-color: #fff4ff;
 }
+
+.three-cards4{
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    height: 80dvh;
+    gap: 20px;
+    /* border: 1px solid */
+    padding-bottom: 90px;
+}
+
+.three-cards4 .card1{
+    height: 80dvh;
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+.three-cards4 .grey{
+    color: grey;
+    text-align: justify;
+}
+
+.three-cards4 button{
+    background-color: white;
+    color: var(--my-color);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  
+}
+
+.three-cards4 button:hover{
+    /* outline: 1px solid #b13aac !important; */
+    background-color: #b13aac;
+    color: white;
+}
+
+.three-cards4 button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.three-cards4 button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}
+
+.three-cards4 .card1 span{
+    color: grey;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.three-cards4 .card1  .purple{
+    font-size: 13px;
+    color: var(--my-color);
+    font-weight: 700;
+}
+

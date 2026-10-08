@@ -907,10 +907,10 @@ header div{
 
 .three-cards4{
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    height: 80dvh;
+    min-height: 80dvh;
     gap: 20px;
     /* border: 1px solid */
-    padding-bottom: 90px;
+    margin-bottom: 90px;
 }
 
 .three-cards4 .card1{
@@ -965,3 +965,79 @@ header div{
     font-weight: 700;
 }
 
+iframe{
+    margin: auto;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.youtube{
+    height: 600px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+}
+
+.foot-purple{
+    background-image: url(https://wemabank.com/assets/background-V42PbY_R.png);
+    min-height: 120dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.newsletter{
+    min-height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 400;
+    position: absolute;
+    top: 60px;
+    left: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.letter p{
+    color: grey;
+}
+
+input{
+    height: 60px;
+    border: 1px solid;
+    border-radius: 28px;
+    padding: 20px;
+}
+
+.newsletter button{
+    background-color: var(--my-color);
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    margin-right: 50px;
+  
+}
+
+.newsletter button:hover{
+    outline: 1px solid #b13aac !important;
+    background-color: white;
+    color: #b13aac;
+}
+
+.newsletter button .bi-arrow-right-short{
+    font-size: 18px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    display: inline-block;
+}
+
+.newsletter button:hover .bi-arrow-right-short{
+    transform: translateX(10px);
+}

@@ -15,7 +15,7 @@
     <header class="col-12">
         <nav class="first-nav m-auto d-flex justify-content-between align-items-center">
             <img src="https://wemabank.com/assets/wemaFull-55brX0lO.svg" alt="" height="30">
-            <ul class="list-unstyled d-flex justify-content-between align-items-center col-5 mt-3">
+            <ul class="list-unstyled d-lg-flex justify-content-between align-items-center col-5 mt-3 navs d-sm-none">
                 <li><a href="" class="text-decoration-none">Home</a></li>
                 <li><a href="" class="text-decoration-none">About Us</a></li>
                 <li><a href="" class="text-decoration-none">Personal</a></li>
@@ -25,10 +25,17 @@
                 <li><a href="" class="text-decoration-none">SARA</a></li>
                 <li><a href="" class="text-decoration-none">Alat Xplore</a></li>
             </ul>
-            <button class="btn text-light rounded-5 d-flex align-items-center" type="button"><i class="bi bi-briefcase-fill me-2 text-light"></i>Online Banking Login</button>
+            <button class="btn text-light rounded-5 d-sm-none d-lg-flex align-items-center big" type="button"><i class="bi bi-briefcase-fill me-2 text-light"></i>Online Banking Login</button>
+
+            <div class="justify-content-between small-option d-sm-flex d-lg-none">
+                <button class="btn text-light rounded-5 d-flex align-items-center" type="button"><i class="bi bi-briefcase-fill me-2 text-light small"></i>Login</button>
+                <i class="bi bi-search border border-1 py-1 px-2 rounded-circle bg-light"></i>
+                <i class="bi bi-list border border-1 py-1 px-2 rounded-circle"></i>
+            </div>
+            
         </nav>
 
-       <div class="col-12">
+       <div class="col-12 navs d-lg-block d-sm-none">
             <nav class="second-nav col-9 m-auto d-flex justify-content-between align-items-center">
                 <ul class="list-unstyled d-flex justify-content-between align-items-center col-8 mt-3">
                     <li class="careers position-relative"><a href="" class="nav-link text-decoration-none ">Career</a>
@@ -81,51 +88,54 @@
 
 
     <section>
+
+        <i class="bi bi-chat-left-dots-fill rounded-circle text-light"></i>
+
             <!-- carousel -->
 
         <div class="splide col-12 carousel slide z-0" data-bs-interval="5000" data-bs-ride="carousel" role="group" aria-label="Splide Basic HTML Example" id="slide1">
-            <div class="splide__track">
+            <div class="splide__track carrol">
                     <ul class="splide__list">
                         <li class="splide__slide splide1">
-                            <div class="m-auto col-10">
+                            <div class="m-auto col-10 break">
                                 <img src="https://wemabank.com/assets/web-banner-left-O-e2CFT7.png" alt="" class="object-fit-contain" height="500">
                                 <img src="https://wemabank.com/assets/web-banner-right-9DPygWl2.png" alt="">
                             </div>
                         </li>
                         <li class="splide__slide splide2">
-                            <div class="col-10 m-auto">
+                            <div class="col-10 m-auto break">
                                 <img src="https://wemabank.com/assets/jingle-left-IREAcANY.png" alt="" height="550">
                                 <img src="https://wemabank.com/assets/jingle-right-H-L727PA.png" alt="">
                             </div>
                             
                         </li>
                         <li class="splide__slide splide3">
-                            <div class="m-auto col-10">
+                            <div class="m-auto col-10 break">
                                 <img src="https://wemabank.com/assets/left-side-UDmiWXIW.png" alt="" height="600" class="object-fit-contain">
                                 <img src="https://wemabank.com/assets/right-side-MXbSyWrF.png" alt="" class="object-fit-contain">
                             </div>
                         </li>
                         <li class="splide__slide splide4">
-                            <div class="d-flex justify-content-between align-items-center col-11 m-auto">
+                            <div class="d-flex justify-content-between align-items-center col-11 m-auto break">
                                 <img src="https://wemabank.com/assets/left-QiYp4zMD.svg" alt="" height="300">
                                 <img src="https://wemabank.com/assets/phone-NJqnPSB7.svg" alt="" height="500" class="mt-5">
                                 <img src="https://wemabank.com/assets/poweredbyWema-hvXUufkH.svg" alt="" height="200">
                             </div>
                         </li>
                         <li class="splide__slide splide5">
-                            <div class="mb-5 col-11 ms-5">
+                            <div class="mb-5 col-11 ms-5 break">
                                 <img src="https://wemabank.com/assets/left-liCiuubi.png" alt="" height="550">
                                 <img src="https://wemabank.com/assets/right-R4e9FON1.png" alt="" height="550">
                             </div>
                         </li>
                         <li class="splide__slide splide6">
-                            <div class="col-10 m-auto d-flex justify-content-between align-items-center">
+                            <div class="col-10 m-auto d-flex justify-content-between align-items-center break">
                                 <img src="https://wemabank.com/assets/right-4TPYAjM1.png" alt="" height="600">
                                 <img src="https://wemabank.com/assets/left-dynFrDfB.png" alt="" height="600">
                             </div>
                         </li>
                         <li class="splide__slide splide7">
-                            <div class="d-flex align-items-center justify-content-center col-10 m-auto">
+                            <div class="d-flex align-items-center justify-content-center col-10 m-auto break">
                                 <div class="col-6 text-light">
                                     <h1>Rethink Banking, Enbrace Convinience</h1>
                                     <p>The future of banking is here. We're not just a bank, we're your financial co-pilot, expertly navigating you through the exciting future of money</p>
@@ -136,8 +146,8 @@
                         </li>
 
                         <li class="splide__slide splide8">
-                            <div class="d-flex align-items-center justify-content-center col-8 m-auto">
-                                <div class="col-6 text-dark">
+                            <div class="d-flex align-items-center justify-content-center col-8 m-auto break">
+                                <div class="col-6 text-dark break">
                                     <h1>Join The Next Generation Banking Revolution</h1>
                                     <p>The bank where innovation, tech-savvy solutions, and financial freedom collide. Your money, your rules-let's redefine banking together</p>
                                     <button class="btn rounded-5 d-flex align-items-center p-3 gap-1 ">Order Your Card Now<i class="bi bi-arrow-right-short"></i></button>
@@ -147,7 +157,7 @@
                         </li>
 
                         <li class="splide__slide splide9">
-                            <div class="d-flex align-items-center justify-content-center col-10 m-auto">
+                            <div class="d-flex align-items-center justify-content-center col-10 m-auto break">
                                 <div class="col-5 text-light">
                                     <h1 class="col-10">SARA - Customize Solution For Her</h1>
                                     <p>Join the SARA community where financial aspirations come to fruition and discover a personalized touch, offering unique solutions for each woman's individual financial needs</p>
@@ -158,7 +168,7 @@
                         </li>
 
                         <li class="splide__slide splide10">
-                            <div class="d-flex align-items-center justify-content-center col-11 m-auto">
+                            <div class="d-flex align-items-center justify-content-center col-11 m-auto break">
                                 <div class="col-5 text-light">
                                     <h1>We Empower Your Ambitions, One Loan At a Time</h1>
                                     <p>From dream dynasty, we're lunchpad. Our tailored loans and investments fuel your journey, every step of the way brick by enterprenuerial brick</p>
@@ -169,7 +179,7 @@
                         </li>
 
                         <li class="splide__slide splide12">
-                            <div class="d-flex align-items-center mt-5 justify-content-center col-11 m-auto">
+                            <div class="d-flex align-items-center mt-5 justify-content-center col-11 m-auto break">
                                 <div class="col-5 text-dark">
                                     <h1>At Wema Bank, redefine work</h1>
                                     <p>It's an adventure in a great place where every team member is empower to thrive, create, and excel, and where innovation thrives</p>
@@ -197,7 +207,7 @@
         <!-- Boxes next to news -->
 
         <div class="boxes col-12 d-flex align-items-center justify-content-center">
-            <div class="box col-10">
+            <div class="box col-sm-11 col-lg-10">
                 <div class="boxx boxx1">
                     <img src="data:image/svg+xml,%3csvg%20width='57'%20height='56'%20viewBox='0%200%2057%2056'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Frame%202147223344'%3e%3cg%20id='Group%201000005036'%3e%3crect%20id='Rectangle%20496'%20x='10.5'%20y='11'%20width='36'%20height='23.6571'%20fill='url(%23paint0_linear_1164_10734)'/%3e%3cpath%20id='Polygon%2020'%20d='M14.0347%2045.2621L27.9026%2034.6572L14.0347%2034.6572L14.0347%2045.2621Z'%20fill='%23741B66'/%3e%3cpath%20id='?%27%20d=%27M26.7853%2024.8528V24.7139C26.7853%2024.1074%2026.841%2023.6351%2026.9525%2023.2971C27.0639%2022.9545%2027.2241%2022.6837%2027.4331%2022.4846C27.6467%2022.2855%2027.902%2022.0933%2028.1992%2021.9081C28.5103%2021.7183%2028.768%2021.4984%2028.9723%2021.2484C29.1812%2020.9937%2029.2857%2020.6881%2029.2857%2020.3316C29.2857%2020.0677%2029.223%2019.8385%2029.0977%2019.6441C28.9769%2019.4496%2028.8098%2019.2992%2028.5962%2019.1927C28.3826%2019.0815%2028.1481%2019.026%2027.8927%2019.026C27.6559%2019.026%2027.4284%2019.0769%2027.2102%2019.1788C26.9966%2019.2806%2026.8178%2019.4334%2026.6739%2019.6371C26.5346%2019.8409%2026.4557%2020.1025%2026.4371%2020.4219H24.6401C24.6541%2019.783%2024.8073%2019.2482%2025.0998%2018.8176C25.397%2018.3871%2025.7893%2018.0653%2026.2769%2017.8523C26.7691%2017.6347%2027.3077%2017.5259%2027.8927%2017.5259C28.5428%2017.5259%2029.1139%2017.6393%2029.6061%2017.8662C30.0983%2018.093%2030.4814%2018.4148%2030.7553%2018.8315C31.0293%2019.2436%2031.1662%2019.7321%2031.1662%2020.2969C31.1662%2020.8803%2031.0293%2021.3711%2030.7553%2021.7692C30.486%2022.1628%2030.1192%2022.4985%2029.6549%2022.7763C29.3809%2022.9429%2029.1557%2023.1073%2028.9793%2023.2693C28.8028%2023.4314%2028.6728%2023.6235%2028.5892%2023.8458C28.5057%2024.068%2028.4639%2024.3574%2028.4639%2024.7139V24.8528H26.7853ZM27.635%2028.1308C27.3054%2028.1308%2027.0314%2028.0289%2026.8132%2027.8252C26.5996%2027.6169%2026.4928%2027.353%2026.4928%2027.0335C26.4928%2026.7094%2026.5996%2026.4455%2026.8132%2026.2418C27.0314%2026.0334%2027.3054%2025.9293%2027.635%2025.9293C27.9694%2025.9293%2028.2433%2026.0334%2028.4569%2026.2418C28.6705%2026.4455%2028.7773%2026.7094%2028.7773%2027.0335C28.7773%2027.353%2028.6705%2027.6169%2028.4569%2027.8252C28.2433%2028.0289%2027.9694%2028.1308%2027.635%2028.1308Z%27%20fill=%27white%27/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id=%27paint0_linear_1164_10734%27%20x1=%2710.5%27%20y1=%2713.7723%27%20x2=%2727.5821%27%20y2=%2742.0163%27%20gradientUnits=%27userSpaceOnUse%27%3e%3cstop%20stop-color=%27%23FFBAF5%27/%3e%3cstop%20offset=%270.986917%27%20stop-color=%27%23D73BC2%27/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="">
                     <p>Help Center</p>
@@ -300,7 +310,7 @@
                     <img src="https://wemabank.com/assets/smeimg-tuUXOvA2.jpg" alt="">
                 </div>
                 
-                <div>
+                <div class="mt-sm-5">
                     <img src="https://wemabank.com/assets/businessBankingIcon-_DkoGwIs.svg" alt="" height="40">
                     <p class="SME-partner-purple my-4">SME Banking</p>
                     <h4 class="fw-bold my-4">Your Strategic SME Partner</h4>
@@ -364,7 +374,7 @@
                     <img src="https://wemabank.com/assets/DavidoXALAT-AiNisVAC.png" alt="">
                 </div>
                 
-                <div>
+                <div class="mt-sm-5">
                     <img src="https://wemabank.com/assets/coin2-oxd8k7oh.svg" alt="" height="40">
                     <p class=""ALATPay-purple my-4">ALATPay</p>
                     <h4 class="fw-bold my-4">Your Gateway to Uninterrupted Growth</h4>
@@ -415,7 +425,7 @@
                     <p class="card-text">Experience stability and confidence through our Fixed Income alternatives and ratings, a testament to the trust we inspire in the industry.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card mb-sm-5">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Events & Presentations</h5>
                     <p class="card-text">Join us at our exclusive events where industry experts, thought leaders, and financial professionals converge to share valuable insights.</p>
@@ -556,7 +566,7 @@
 
         <!-- mobile section -->
 
-        <div class="mobile position-relative col-12 mb-5">
+        <div class="mobile position-relative col-12 mb-5/ m-auto">
             <span class="star position-absolute">
                 <img src="data:image/svg+xml,%3csvg%20width='94'%20height='113'%20viewBox='0%200%2094%20113'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='path'%20d='M46.262%2025.4377L41.539%201M54.7241%2018.9602L57.7743%206.69231M54.7241%2080.2997L61.2182%20112M46.262%2090.0159L44.1957%20103.265M74.2064%2041.7014L93%2031.9151M22.2535%2041.7014L1%2028.382M13.0043%2046.6366H2.96791M26.9765%2071.0743L8.77326%2086.2865M76.2727%2066.2092L90.7369%2073.5349M49.0437%2041.7014L64.2604%2028.382L59.7221%2049.1603L78.1422%2054.3549L59.7221%2059.5494L64.2604%2073.5349L50.512%2066.2092L37.1641%2084.3236L38.7658%2062.7461L13.0043%2058.2175L34.8481%2049.1603L30.6236%2029.4475L49.0437%2041.7014Z'%20stroke='%23AD1E9B'%20stroke-width='3'/%3e%3c/svg%3e" alt="">
             </span>

@@ -78,8 +78,24 @@ header div{
     display: flex !important;
 }
 
+.bi-chat-left-dots-fill{
+    background-color: var(--my-color);
+    font-size: 20px;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.small-option{
+    width: 14%;
+    border: none;
+    display: none !important;
+}
+
 .splide__slide{
-    height: 81dvh !important;
+    min-height: 81dvh !important;
 }
 
 
@@ -379,7 +395,7 @@ header div{
 }
 
 .box{
-    height: 16dvh;
+    min-height: 16dvh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)) !important;
     gap: 20px;
@@ -390,6 +406,7 @@ header div{
     color: grey;
     font-weight: 400;
     display: flex;
+    flex-shrink: 0 !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -759,7 +776,8 @@ header div{
 }
 
 .testimonies{
-    margin-bottom: 40px;
+    /* margin-bottom: 20px; */
+    /* border: 5px solid; */
 }
 
 .testimonies .head p{
@@ -786,6 +804,7 @@ header div{
     padding: 20px;
     height: 200px !important;
     box-shadow: 0 0px 6px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
 }
 
 .testimony-card .splide__slide .card-text{
@@ -1073,4 +1092,58 @@ input{
 .note{
     font-size: 15px;
     color: var(--my-color);
+}
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .navs{
+        display: none !important;
+    }
+
+    .small-option{
+        display: flex !important;
+    }
+
+    .splide__track{
+        width: 100%;
+        margin: auto;
+    }
+
+    .boxx{
+        height: 100px;
+    }
+
+    .Article{
+        width: 10%;
+    }
+
+    .carrol .break{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .navs{
+    display: none !important;
+    }
+
+    .big{
+        display: none !important;
+    }
+
+    .first-nav{
+        width: 85%;
+        margin-right: 30px;
+    }
+
+    .small-option{
+        display: flex !important;
+    }
 }

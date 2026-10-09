@@ -1041,3 +1041,36 @@ input{
 .newsletter button:hover .bi-arrow-right-short{
     transform: translateX(10px);
 }
+
+.social-media{
+    /* padding-top: 20rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    line-height: 30px;
+    padding-top: 20rem;
+    padding-bottom: 30px;
+}
+
+.footer-links li{
+    font-size: 14px;
+}
+
+.links p{
+    color: white;
+    font-weight: 700;
+}
+
+.links li a:hover{
+    color: var(--my-color) !important;
+}
+
+.note{
+    font-size: 15px;
+    color: var(--my-color);
+}
